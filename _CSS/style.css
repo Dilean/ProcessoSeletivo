@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: Verdana;
+}
+
+header{
+    text-align: center;
+    background-color: rgba(0,0,0,1);
+}
+
+header h1{
+    color: #fff;
+}
+
+footer{
+    background-color: #000;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.produto{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.lista_Produtos{
+    margin-top: 150px;
+}
+
+.info_Produto, .compravenda_Produto{
+    float: left;
+}
+
+.compravenda_Produto{
+    width: 230px;
+    font-size: 0.9em;
+}
+
+section .btn{
+    float: right;
+    margin: 5px 10px;
+    border-radius: 2px;
+}
+
+.vender{
+    background-color: lightcoral;
+}
+.vender:hover{
+    background-color: linen;
+}
+
+.comprar{
+    background-color: lightgreen;
+}
+
+.comprar:hover{
+    background-color: lightcyan;
+}
+
+.codigo_M{
+    display: none;
+}
+
+.total{
+    color: lightcoral;
+    font-size: 1.5em;
+}
+
+.quantidade{
+    border-radius: 2px;
+    width: 70px;
+    margin: 0 5px;
+}
+
+.modal-body{
+    text-align: center;
+    overflow: auto;
+}
+
+.modal-body img{
+    width: 20%;
+}
+
+table {
+    margin: 10px auto 0 auto;
+}
+
+table td {
+    border: solid 1px #ccc;
+    width: 100px;
+}
+
+table thead tr{
+    background-color: #ddd;
+    border-radius: 10px;
+}
